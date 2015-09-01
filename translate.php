@@ -11,7 +11,7 @@ class translate extends Script
 
 		$translatedText = $tr->translate($this->matches[3]);
 
-		if(!isset($this->matches[1])) {
+		if($this->matches[1] === 'AUTO') {
 			$this->send('You are translating from ' . $tr->getLastDetectedSource());
 		}
 
