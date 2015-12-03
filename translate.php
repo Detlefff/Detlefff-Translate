@@ -5,7 +5,7 @@ use Stichoza\GoogleTranslate\TranslateClient;
 
 class translate extends Script
 {
-	protected $helpMessage = "'translate from LANGUAGECODE to LANGUAGECODE STRING'\n"
+	protected static $helpMessage = "'translate from LANGUAGECODE to LANGUAGECODE STRING'\n"
 							."'translate from LANGUAGECODE to LANGUAGECODE STRING'\n"
 							."'tr LANGUAGECODE - LANGUAGECODE STRING'\n"
 							."You can use 'AUTO' as LANGUAGECODE to detect the language of the given string.";
